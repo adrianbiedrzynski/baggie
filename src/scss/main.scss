@@ -1,16 +1,249 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Rosario&display=swap');
 
 
 html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body {
-  color: $yellow;
-  background: $violet;
+.green__bgc {
+  background-image: url(../assets/img/tło__mainSite--green.png);
+  position: absolute;
+  width: 375px;
+  height: 780px;
+  left: -0.29px;
+  top: 30px;
+  background-repeat: no-repeat;
+}
+
+.blue__bgc {
+  background-image: url(../assets/img/tlo__mainSite--green.png);
+  position: absolute;
+  width: 375px;
+  height: 343.15px;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: absolute;
+  width: 154px;
+  height: 143px;
+  left: 221px;
+  top: 37px;
+}
+
+.mainSite {
+
+  &__header {
+    position: absolute;
+    width: 162px;
+    height: 57px;
+    left: 112px;
+    top: 186px;
+    z-index: 1;
+
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 48px;
+
+    color: $blue;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 3px 3px 3px #4BFFA5;
+  }
+
+  &__text {
+    position: absolute;
+    width: 260px;
+    height: 29px;
+    left: 23px;
+    top: 253px;
+    z-index: 1;
+
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: $blue;
+  }
+
+  &__btn--new {
+    position: absolute;
+    width: 334px;
+    height: 54px;
+    left: 18px;
+    top: 550px;
+    padding: 10px;
+
+
+    background: $blue;
+    border-radius: 20px;
+    font-family: Rosario;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 39px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  &__btn--other {
+
+    position: absolute;
+    width: 130px;
+    height: 34px;
+    left: 130px;
+    top: 650px;
+    font-family: Rosario;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0C2488;
+  }
+}
+
+// New Bag
+
+.New {
+  background-color: $green;
+  width: 100%;
+  height: 100vh;
+
+  &__name {
+    position: absolute;
+    width: 350px;
+    height: 48px;
+    left: 16px;
+    top: 35px;
+
+    background: #0C2488;
+    border-radius: 20px;
+
+    &--label {
+      margin-right: 0;
+      margin-left: 10px;
+      font-family: Rosario;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 50px;
+      color: rgba(255, 255, 255, 0.91);
+    }
+
+    &--input {
+      background: none;
+      border: none;
+      width: 150px;
+      height: 30px;
+      line-height: 50px;
+      font-family: Rosario;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.91);
+      ;
+    }
+
+  }
+
+  &__goal {
+    position: absolute;
+    width: 350px;
+    height: 51px;
+    left: 16px;
+    top: 102px;
+
+    background: #0C2488;
+    border-radius: 20px;
+
+    &--label {
+      margin-left: 10px;
+      margin-right: 0;
+      font-family: Rosario;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 50px;
+      color: rgba(255, 255, 255, 0.91);
+    }
+
+    &--input {
+      background: transparent;
+      border: none;
+      width: 240px;
+      height: 30px;
+      line-height: 50px;
+      font-family: Rosario;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.91);
+      ;
+    }
+
+  }
+
+  &__list {
+    position: absolute;
+    width: 340px;
+    height: 530px;
+    left: 16px;
+    top: 161px;
+
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+
+    &--area {
+      background: transparent;
+      border: none;
+      font-family: Rosario;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: $blue;
+    }
+  }
+
+}
+
+.saveBag {
+  position: absolute;
+  width: 350px;
+  height: 51px;
+  left: 16px;
+  top: 720px;
+
+  background: #0C2488;
+  border-radius: 20px;
+
+  font-family: Rosario;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+
+  border-radius: 20px;
+
+  &__icon {
+    position: absolute;
+    width: 37px;
+    height: 36px;
+    right: 40px;
+    top: 5px;
+    border: none;
+  }
 }
