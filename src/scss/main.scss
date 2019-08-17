@@ -116,7 +116,7 @@ html {
 
 // New Bag
 
-.New {
+.new {
   background-color: $green;
   width: 100%;
   height: 100vh;
@@ -206,6 +206,7 @@ html {
     border-radius: 20px;
 
     &--area {
+      padding: 10px;
       background: transparent;
       border: none;
       font-family: Rosario;
@@ -246,4 +247,13 @@ html {
     top: 5px;
     border: none;
   }
+}
+
+.backIcon {
+  position: absolute;
+  width: 49px;
+  height: 45px;
+  left: 11px;
+  top: 780px;
+
 }

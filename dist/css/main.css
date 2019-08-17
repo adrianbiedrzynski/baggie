@@ -403,11 +403,11 @@ html {
   line-height: 29px;
   color: #0C2488; }
 
-.New {
+.new {
   background-color: #4BFFA5;
   width: 100%;
   height: 100vh; }
-  .New__name {
+  .new__name {
     position: absolute;
     width: 350px;
     height: 48px;
@@ -415,7 +415,7 @@ html {
     top: 35px;
     background: #0C2488;
     border-radius: 20px; }
-    .New__name--label {
+    .new__name--label {
       margin-right: 0;
       margin-left: 10px;
       font-family: Rosario;
@@ -424,7 +424,7 @@ html {
       font-size: 24px;
       line-height: 50px;
       color: rgba(255, 255, 255, 0.91); }
-    .New__name--input {
+    .new__name--input {
       background: none;
       border: none;
       width: 150px;
@@ -435,7 +435,7 @@ html {
       font-weight: normal;
       font-size: 16px;
       color: rgba(255, 255, 255, 0.91); }
-  .New__goal {
+  .new__goal {
     position: absolute;
     width: 350px;
     height: 51px;
@@ -443,7 +443,7 @@ html {
     top: 102px;
     background: #0C2488;
     border-radius: 20px; }
-    .New__goal--label {
+    .new__goal--label {
       margin-left: 10px;
       margin-right: 0;
       font-family: Rosario;
@@ -452,7 +452,7 @@ html {
       font-size: 24px;
       line-height: 50px;
       color: rgba(255, 255, 255, 0.91); }
-    .New__goal--input {
+    .new__goal--input {
       background: transparent;
       border: none;
       width: 240px;
@@ -463,7 +463,7 @@ html {
       font-weight: normal;
       font-size: 16px;
       color: rgba(255, 255, 255, 0.91); }
-  .New__list {
+  .new__list {
     position: absolute;
     width: 340px;
     height: 530px;
@@ -471,7 +471,8 @@ html {
     top: 161px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 20px; }
-    .New__list--area {
+    .new__list--area {
+      padding: 10px;
       background: transparent;
       border: none;
       font-family: Rosario;
@@ -502,5 +503,12 @@ html {
     right: 40px;
     top: 5px;
     border: none; }
+
+.backIcon {
+  position: absolute;
+  width: 49px;
+  height: 45px;
+  left: 11px;
+  top: 780px; }
 
 /*# sourceMappingURL=main.css.map */
