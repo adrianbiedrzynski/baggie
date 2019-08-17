@@ -5,11 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../scss/newbag.scss">
-    <title>Document</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" sizes="192x192" href="assets/pwa/icons/logo-bag.png" />
+
+    <link rel="icon" type="image/png" href="assets/pwa/icons/logo-bag.png" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Your new bag</title>
 </head>
 
-<body>
+<body class="new">
+    <form action="">
+        <p class="new__name">
+            <label class="new__name--label" for="new">Name your bag : </label>
+            <input class="new__name--input" id="new" type="text">
+        </p>
+        <p class="new__goal">
+            <label class="new__goal--label" for="goal">Goal : </label>
+            <input class="new__goal--input" id="goal" type="text">
+        </p>
+        <p class="new__list">
+            <textarea class="new__list--area" name="" id="" cols="43" rows="28"></textarea>
+        </p>
+    </form>
+
+    <button class="saveBag">Save your bag with <img class="saveBag__icon" src="../assets/img/heart.png" alt=""></button>
+    <a class="backIcon" href="index.html"><img src="assets/img/back-arrow.png" alt=""></a>
+
 
 
 </body>
